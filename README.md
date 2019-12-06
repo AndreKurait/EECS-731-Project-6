@@ -1,7 +1,7 @@
 # EECS 731 Project 6
 
 This is Andre Kurait's sixth project for EECS 731, Data Science in Fall 2019.
-For this project, I analyzed several anomaly detection models on taxi data.
+For this project, I analyzed several anomaly detection models on taxi data in NYC.
 
 ## Project Requirements
 ### D(St)reams of Anomalies
@@ -17,11 +17,11 @@ The real world does not slow down for bad data
 ## Project structure
 ```bash
 .
+├── Anomaly.ipynb
 ├── Data
-│   └── Historical_Product_Demand.csv
-├── README.md
-└── Shipping.ipynb
+│   └── nyc_taxi.csv
+└── README.md
 ```
 
 ## Conclusion
-Overall, I was not able to some accuracy in predicting demand. It wasn't great, but I learned a lot about the ARIMA and Seasonal ARIMA models.
+Overall, I am very happy with the performance of the isolation forrest in predicting anomalies in the taxi data. I was even able to identify corresponding real world events that caused these anomalies like a snow storm or the NYC Marathon.
